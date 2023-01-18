@@ -4,6 +4,9 @@
 ## Enumerate, lambda, filter, map were used
 # New decision of the task: Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
+import os
+os.system('cls')
+
 def compression(string):
     compressed_string = ''
     i = 0
