@@ -2,7 +2,7 @@
 # С помощью использования **лямбд, filter, map, zip, enumerate, list comprehension
 
 
-## List comprehension were used
+## List comprehension, enumerate, map, lambda were used
 # New decision of the task: Задайте список из вещественных чисел.
 # Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 
@@ -12,9 +12,7 @@
 import os
 import random
 from math import fabs
-
 os.system('cls')
-
 
 def check_int():
     num = int(input('Enter list length: '))
@@ -52,9 +50,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
 
 
 # # Previous decision
